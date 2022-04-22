@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+.navbar {  
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11.59px;
+}
+
+
+
+.teal
+{
+    background: #009688;
+}
+
+li.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: #FFF;
+    transition: all 0.3s;
+}
+
+li.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+li.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+li.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+
+.nav-links a .navbar {
+    color: #848484;
+}
+.nav-links a:hover  {
+    color: #f4623a;
+}
+.logo {
+    font-size: 32px;
+    color: #848484;
+}
+.menu {
+    
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+.menu a{
+    color: #848484;
+
+}
+.menu li:hover {
+    border-radius: 5px;
+}
+.menu li {
+    position: relative;
+    right: 160%;
+}
+.content_m1 {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://cdn.discordapp.com/attachments/849966051969728512/966813179290206339/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.MainColor {
+    color: #6E6E6E;
+}
+
+.TextCenter{
+    text-align: center;
+}
+.content_m1 h1{
+    font-size: 100px;
+    letter-spacing: 15px;
+    
+}
+.content_m1 h1{
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.content_m1 h2{
+    min-width: 1rem;
+    padding-bottom:1.98rem;
+    color: rgba(255, 255, 255, 0.6)
+}
+.btn{
+    padding: 1.35rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    color: #fff;
+    background-color: #64a19d;
+    border-radius: 5%;
+}
+
+.btn {
+    opacity: 0.8;
+  }
+  
+  .btn:hover {
+    opacity: 1.0;
+  }
+
+.container-about {
+    background-color: black;
+    height:55.5vh
+}
+.container-about h2 {
+    color: white;
+    text-align: center;
+    letter-spacing:5px
+}
+.text-white-50{
+    font: size 15px;
+    color: rgba(255, 255, 255, 0.6) !important;
+    padding-left: 40rem;
+    padding-right: 29rem;   
+}
+.imageabout{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn.discordapp.com/attachments/849966051969728512/966828099314520064/ipad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 59%;
+    position: relative;
+    top: -0.53%;
+}
+.img-prkc{
+    flex: 1;
+}
+.container-flex{
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    padding-left: 10rem;
+    padding-right: 25rem;
+    padding-bottom: 3.5rem;
+}
+.container-flex img{   
+    padding-top: 3.5rem;
+    display: flex;
+    padding-left: 12.5rem;
+    width: 816px;
+    height: 410px
+}
+.flex-group h3{
+    text-align: center;
+}
+
+#flexxed{
+    width: 1212px;
+    height: 437px;
+    display: flex;
+    margin-left:16.95%;
+}
+#flexxed div ,#flexxed2 div{
+    -ms-flex: 1;  /* IE 10 */  
+    flex: 1;
+}
+.white-text{
+    color: white;
+}
+.Flexxed-imgs{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg);
+    background-position: center;
+}
+.center{
+    text-align: center;
+}
+.flexxed-txt{
+    position: relative;
+    top: 2%;
+    font-size:30px
+}
+.flexxed-txt2{
+    position: relative;
+    top: 5%;
+    font-size:18px;
+}
+.Flexxed-imgs2{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg);
+    background-position: center;
+    
+}
+#flexxed2{
+    width: 1212px;
+    height: 437px;
+    display: flex;
+    margin-left:16.95%;
+    margin-bottom: 8.9rem;
+}
